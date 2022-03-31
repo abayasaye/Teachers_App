@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url(https://cdn.pixabay.com/photo/2017/08/20/10/47/grey-2661270_1280.png)
+    }
+    header{
+        height: 10vh;
+        width: 100%;
+        border: 1px solid #ffffff ;
+        text-align: center;
+        background-color: #5e95e4 ;
+        color: #ffffff;
+    }
+        
+    div{
+        height: 100vh;
+    }
+
+    h1{
+        color: #920898;
+        font-size: 25px;
+    }
+    span{
+        color: #920898;
+        font-size: 17px;
+        font-style: italic;
+        
+    }
+    input{
+        width: 30vw;
+    }
+    button{
+        width: 50px;
+        height: 20px;
+        background-color: #c3158e ;
+        color: #ffffff;
+        
+
+    }
+    table,th,tr,td{
+        border: 1px solid;
+        width: 90vw;
+    }
+    th{
+        background-color:#ab15c3 ;
+    }
+    ul{
+        font-weight:bold ;
+        font-style: italic;
+        color: #0e72f0;
+    }
+    ol{
+        font-style: normal;
+        font-weight: normal;
+        color: #0ef047 ;
+    }
+        
+    footer{ 
+        height: 10vh;
+        border: 1px solid #ffffff;
+        text-align:center;
+        position: fixed;
+        bottom: 0; 
+        width: 100%;
+        background-color:#5e95e4;
+        color: #FFFFFF;
+    }
+</style>
+<body>
+    <header> header</header>
+    <div>
+        <form><h1>50 Class</h1>
+              <span>"Welcome to our website"</span><br>
+              <label for="Email"><b><i>Email</i></b></label>
+              <input type="Email" id="ename" name="email" placeholder="Enter Your Email here">
+              
+              <br>
+              <label for="fname"><b><i>Full Name</i></b></label>
+              <input  type="text" id="fname" name="full tname" placeholder="Enter full name" maxlength="30"minlength="2">
+              
+              <br>
+              <label for="date"><b><i>Date</i></b> </label>
+              <input type="date" id="date" name="lastname" placeholder="Enter birth day"maxlength="15">
+              
+              <br>
+              <label for="score"><b><i>Score</i></b></label>
+              <input min="0" max="15" type="number" placeholder="" onkeydown=" return false"><br>
+              <button>save</button>
+
+        </form>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <th>Full-Name</th>
+                <th>Date</th>
+                <th>Email</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>jackob Engidaw</td>
+                    <td>25/03/92</td>
+                    <td>jack99@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Asaf david</td>
+                    <td>12/06/93</td>
+                    <td>asafrr2@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Bat Sheva</td>
+                    <td>22/04/94</td>
+                    <td>batewe@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Takele solomon</td>
+                    <td>28/08/78</td>
+                    <td>takelew@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Morit Drori</td>
+                    <td>12/06/85</td>
+                    <td>morit56@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <ul>
+            <li>jackob Ingidaw
+                <ol>
+                    <li>Full Stack</li>
+                    <li>QA aoutomation</li>
+                    <li>Devops</li>
+                </ol>
+            </li>
+            <li>Asaf David
+                <ol>
+                    <li>UX</li>
+                    <li>UI</li>
+                    <li>Syber</li>
+                </ol>
+            </li>
+            <li>Bat Sheva
+                <ol>
+                    <li>Data base</li>
+                    <li>Java Script</li>
+                    <li>MongoDB</li>
+                </ol>
+            </li>
+            <li>Takele solomon
+                <ol>
+                    <li>Data science</li>
+                    <li>Node JS</li>
+                    <li>Support</li>
+                </ol>
+            </li>
+            <li>Morit Drori
+                <ol>
+                    <li>Mindfulness</li>
+                    <li>Marketing</li>
+                    <li>Python</li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+    <footer>
+            <a href="mailto:hege@example.com">contact me</a>
+    </footer>
+</body>
+</html>
